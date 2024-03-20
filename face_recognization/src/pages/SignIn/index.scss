@@ -1,0 +1,114 @@
+@import "../../styles/index.scss";
+
+.login {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.login-left,
+.login-right {
+  height: 100%;
+  width: 50%;
+}
+.login-left {
+
+  background-image: url("../../assets/loginImg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+  
+
+  .title {
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: 352px;
+    text-align: center;
+    color:azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -62px;
+    
+}
+}
+.login-right {
+
+  background-color: rgb(234, 236, 238);
+  .login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 80px;
+    margin-top: 152px;
+
+    .sign-in
+     { margin-bottom: 20px;
+      
+    }
+    .dont-have{
+      margin-bottom: 30px;
+    }
+  
+    .forgot {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      padding: 20px 0px;
+
+    }
+  }
+}
+// padding: 50px 10px;
+// margin-top: 100px;
+// margin-right: 200px;
+
+// .login__form {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   width: 280px;
+//   margin: 0px auto;
+// }
+// .forgot {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: flex-start;
+//   align-items: center;
+//   width: 100%;
+// }
+
+// .forgot > a {
+//   margin-left: 20px;
+// }
+
+// .login-img {
+//   width: auto;
+//   height: 600px;
+//   margin: 0px 40px;
+//   border-radius: 12px;
+// }
+
+@media (max-width: 1024px) {
+  .login-left {
+    margin-right: 0px;
+    width: 100%;
+    background-image: url("https://img.freepik.com/darmowe-wektory/ilustracja-koncepcji-logowania-na-tablet_114360-7963.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .login-content {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+}

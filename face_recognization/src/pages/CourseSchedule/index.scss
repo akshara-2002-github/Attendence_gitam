@@ -1,0 +1,24 @@
+@import "../../styles/index.scss";
+
+.grid-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  border-collapse: collapse;
+  width: auto;
+  border: 1px solid black;
+
+  .table-header {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+}

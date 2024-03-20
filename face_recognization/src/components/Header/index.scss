@@ -1,0 +1,49 @@
+@import "../../styles/index.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0px;
+  box-shadow: none;
+  backdrop-filter: blur(8px);
+  background-color: transparent;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+ height: 70px;
+ 
+}
+.header >sup{
+  padding-left:80px ;
+  color: #5386ba;
+}
+
+.header__title {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header__icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+
+  
+}
+
+.header__content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  // max-width: 1245px;// Adjust this based on the layout requirements
+  padding: 30px; 
+  
+}

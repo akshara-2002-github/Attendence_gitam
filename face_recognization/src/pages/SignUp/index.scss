@@ -1,0 +1,68 @@
+@import "../../styles/index.scss";
+
+.login {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.login-left,
+.login-right {
+  height: 100%;
+  width: 50%;
+}
+.login-left {
+
+  background-image: url("../../assets/loginImg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+  
+
+  .title {
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 352px;
+    text-align: left;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -52px;
+    
+}
+}
+.login-right {
+
+  background-color: rgb(229, 234, 240);
+  .login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 80px;
+    margin-top: 152px;
+
+    .sign-in
+     { margin-bottom: 20px;
+      
+    }
+    .dont-have{
+      margin-bottom: 30px;
+    }
+  
+    .forgot {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items:center;
+      width: 100%;
+      padding: 20px 0px;
+
+    }
+  }
+}

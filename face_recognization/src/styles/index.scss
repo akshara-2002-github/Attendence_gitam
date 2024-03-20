@@ -1,0 +1,16 @@
+@import "./colors.scss";
+@import "./typography.scss";
+@import "./dimensions.scss";
+
+*,
+*::before,
+*::after {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	
+}

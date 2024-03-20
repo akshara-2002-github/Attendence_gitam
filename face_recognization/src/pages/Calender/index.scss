@@ -1,0 +1,78 @@
+.calender_header{
+	display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+.month{
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 30px;
+}
+.arrow-transition {
+	transition: transform 0.8s ease;
+  }
+.h1__month{
+	padding: 30px;
+}
+.buttons_container{
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+	padding: 20px;
+	
+}
+.buttons{
+	font-size: large;
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+	border-radius:12px;
+
+	
+}
+
+.calendar {
+	margin-top: 20px;
+	display: grid;
+	
+	grid-template-columns: repeat(7, 175px);
+    grid-template-rows: 50px repeat(6, 100px);
+	overflow-y: auto;
+    justify-content: center;
+	margin-bottom: 60px;
+
+	
+}
+
+.calendar__header {
+	background-color: #fff;
+	color: black;
+    
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.calendar__day {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(37, 39, 52, 0.1);
+}
+
+.calendar__day--is-not-selected-month {
+	background-color: rgba(224, 224, 224, 1);
+}
+
+.calendar__day--is-today {
+	border-color: #884CB2;
+	background-color: rgba(136, 76, 178, 0.15);
+}

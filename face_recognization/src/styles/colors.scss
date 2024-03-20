@@ -1,0 +1,138 @@
+$color-primary: #ffd93d;
+$color-primary-1: #fdb613;
+$color-primary-faded: rgb(255, 235, 153);
+$color-primary-faded-1: rgb(255 235 153 / 40%);
+$color-secondary: #ff984d;
+$color-secondary-1: rgb(255, 132, 0);
+$color-secondary-2: #ff7612;
+$color-secondary-3: #f16629;
+$color-teritary: #4f200d;
+$color-quaternary: #39a9cb;
+$color-quaternary-1: #0d43aa;
+$color-quaternary-faded: rgb(149, 227, 251);
+$color-quaternary-faded-1: rgb(149 227 251 / 18%);
+$color-base: #ffffff;
+$color-base-1: #f6f6f6;
+$color-base-2: #e6e6e7;
+$color-grey: #f6f1e9;
+$color-grey-1: #cbcbcb;
+$color-grey-2: #afb0b4;
+$color-grey-3: #afafaf;
+$color-grey-4: #92969f;
+$color-grey-5: #838e9f;
+$color-error: #ef5e5e;
+$color-error-faded: rgb(255, 149, 149);
+$color-error-faded-1: rgb(255 149 149 / 40%);
+$color-link: $color-quaternary-1;
+$color-dark: #0f0f0f;
+$color-dark-1: #0c0f14;
+$color-dark-2: #000000;
+$color-dark-3: #090e1a;
+
+$background-color-primary: $color-primary;
+$background-color-primary-1: $color-primary-1;
+$background-color-primary-faded: $color-primary-faded;
+$background-color-primary-faded-1: $color-primary-faded-1;
+$background-color-secondary: $color-secondary;
+$background-color-secondary-1: $color-secondary-1;
+$background-color-secondary-2: $color-secondary-2;
+$background-color-secondary-3: $color-secondary-3;
+$background-color-teritary: $color-teritary;
+$background-color-quaternary: $color-quaternary;
+$background-color-quaternary-1: $color-quaternary-1;
+$background-color-quaternary-faded-1: $color-quaternary-faded-1;
+$background-color-quaternary-faded: $color-quaternary-faded;
+$background-color-error: $color-error;
+$background-color-error-faded: $color-error-faded;
+$background-color-error-faded-1: $color-error-faded-1;
+$background-color-base: $color-base;
+$background-color-base-1: $color-base-1;
+$background-color-base-2: $color-base-2;
+$background-color-grey: $color-grey;
+$background-color-grey-1: $color-grey-1;
+$background-color-grey-2: $color-grey-2;
+$background-color-grey-3: $color-grey-3;
+$background-color-grey-4: $color-grey-4;
+$background-color-grey-5: $color-grey-5;
+$background-color-dark: $color-dark;
+$background-color-dark-1: $color-dark-1;
+$background-color-dark-2: $color-dark-2;
+$background-color-glass: rgba(248, 248, 248, 0.82);
+$background-color-modal: #0c0f14d1;
+$background-image: radial-gradient(
+  circle farthest-corner at 12.3% 19.3%,
+  #2940d396 0%,
+  rgb(175, 240, 232) 100.2%
+);
+$background-image-disabled: repeating-linear-gradient(
+  45deg,
+  $background-color-grey-2 0,
+  $background-color-grey-2 3px,
+  $background-color-grey-1 0,
+  $background-color-grey-1 50%
+);
+$background-image-disabled-0: repeating-linear-gradient(
+  45deg,
+  $background-color-grey-2 0,
+  $background-color-grey-2 0,
+  $background-color-grey-1 0,
+  $background-color-grey-1 50%
+);
+$background-image-disabled-primary: repeating-linear-gradient(
+  45deg,
+  $background-color-primary-faded 0,
+  $background-color-primary-faded 3px,
+  $background-color-primary 0,
+  $background-color-primary 50%
+);
+$background-image-disabled-primary-0: repeating-linear-gradient(
+  45deg,
+  $background-color-primary-faded 0,
+  $background-color-primary-faded 0,
+  $background-color-primary 0,
+  $background-color-primary 50%
+);
+$background-image-disabled-warning: repeating-linear-gradient(
+  45deg,
+  $background-color-error-faded 0,
+  $background-color-error-faded 3px,
+  $background-color-error 0,
+  $background-color-error 50%
+);
+$background-image-disabled-warning-0: repeating-linear-gradient(
+  45deg,
+  $background-color-grey-2 0,
+  $background-color-grey-2 0,
+  $background-color-error 0,
+  $background-color-error 50%
+);
+$background-image-disabled-quaternary: repeating-linear-gradient(
+  45deg,
+  $background-color-quaternary-faded 0,
+  $background-color-quaternary-faded 3px,
+  $background-color-quaternary 0,
+  $background-color-quaternary 50%
+);
+
+$border-color: rgba(37, 39, 52, 0.1);
+
+.white {
+  color: $color-base;
+}
+
+.dark {
+  color: $color-dark;
+}
+
+.transparent {
+  color: transparent;
+}
+
+.badge {
+  color: $color-base;
+  background-color: $background-color-quaternary;
+  border-radius: 5px;
+  padding: 4px 8px;
+
+  display: inline-block;
+}

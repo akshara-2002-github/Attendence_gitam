@@ -1,0 +1,11 @@
+@import '../../styles/index.scss';
+
+
+.attendence-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(28, 90, 197) 85%, pink 0);
+}

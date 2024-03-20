@@ -1,0 +1,23 @@
+@import "../../styles/index.scss";
+
+.nav-links {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-links__link,
+.nav-links__link--white {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  font-family:'Times New Roman', Times, serif;
+  margin-right: 20px;
+  color: #525c65;
+}
+.nav-links__link--white{
+    color: white;
+}

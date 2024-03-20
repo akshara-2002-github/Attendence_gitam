@@ -1,0 +1,57 @@
+html,
+body,
+#root,
+.container--with-vertical-padding,
+.container,
+.layout {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#root {
+	overflow-y: auto;
+}
+
+.br {
+	height: 8px;
+}
+
+.br-1 {
+	height: 10px;
+}
+
+.br-2 {
+	height: 12px;
+}
+
+$border-radius: 4px;
+
+.layout {
+	--padding-left: calc((100% - 1120px) / 2);
+	padding: 0 var(--padding-left);
+	width: calc(100% - var(--padding-left) * 2);
+	height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.container--with-vertical-padding,
+.container {
+	height: auto;
+}
+
+.container--with-vertical-padding {
+	padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1240px) {
+	.layout {
+		--padding-left: 60px;
+	}
+}
+
+
+
+
+  

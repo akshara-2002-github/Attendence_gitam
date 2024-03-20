@@ -1,0 +1,78 @@
+// CameraComponent.scss
+
+@import "../../styles/index.scss";
+.overall{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.camera-container,.captured-image-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.webcam-element,
+.captured-image-element {
+  width: 80%; /* Set the same width for both elements */
+  height: auto; /* Let the height adjust proportionally */
+  border-radius: 0%; /* Ensure border-radius is consistent */
+  margin-top: 40px; /* Adjust margin as needed */
+
+  
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.capture-button,
+.close-button {
+  margin: 10px;
+  margin: 10px;
+
+  padding: 14px 16px;
+  background-color: #007bff;
+  color: #fff;
+
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+.capture-button:hover {
+  background-color: #0056b3;
+}
+
+// .camera-container {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+// }
+
+.webcam-container,
+.captured-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+// .webcam-element {
+//   width: 100%;
+//   height: auto;
+// }
+
+// .capture-button, .close-button {
+//   margin-top: 10px;
+//   padding: 8px 16px;
+//   background-color: #007bff;
+//   color: #fff;
+//   border: none;
+//   border-radius: 4px;
+//   cursor: pointer;
+// }
